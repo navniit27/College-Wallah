@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Wallah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- ── HEADER ── -->
+    <header>
+        <div class="nav-container">
+            <nav>
+                <div class="logo">
+                    <i class="fa fa-graduation-cap"></i>
+                    <span>College Wallah</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a class="active" href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#course">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <a class="login-btn" href="#login">Login</a>
+                    <a class="register-btn" href="#register">Register</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ── HERO ── -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to College Wallah</h1>
+            <p>Discover a world of knowledge and opportunities with our comprehensive courses and resources.</p>
+            <a class="cta-btn" href="#course">Explore Courses</a>
+        </div>
+
+        <!-- Wave: blue → light blue -->
+        <div class="wave-divider">
+            <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f0f6ff"/>
+            </svg>
+        </div>
+
+        <!-- Featured Courses (lives inside hero section) -->
+        <div class="featured-courses">
+            <h2>Featured Courses</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-img"><i class="fa fa-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Learn to build modern websites and applications with HTML, CSS, and JavaScript.</p>
+                    <span>12 weeks</span>
+                </div>
+                <div class="course-card">
+                    <div class="course-img"><i class="fa fa-database"></i></div>
+                    <h3>Data Science</h3>
+                    <p>Master data analysis, visualization, and machine learning techniques.</p>
+                    <span>16 weeks</span>
+                </div>
+                <div class="course-card">
+                    <div class="course-img"><i class="fa fa-bullhorn"></i></div>
+                    <h3>Digital Marketing</h3>
+                    <p>Discover strategies for online marketing, SEO, and social media management.</p>
+                    <span>10 weeks</span>
+                </div>
+                <div class="course-card">
+                    <div class="course-img"><i class="fa fa-paint-brush"></i></div>
+                    <h3>Graphic Design</h3>
+                    <p>Learn the principles of design and how to create stunning visuals.</p>
+                    <span>8 weeks</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave: light blue → white -->
+    <div class="wave-divider wave-white">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,40 C480,80 960,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+        </svg>
+    </div>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About College Wallah</h2>
+            <p>We are on a mission to make quality education accessible to everyone. Our platform brings together expert instructors and passionate learners.</p>
+        </div>
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-icon"><i class="fa fa-users"></i></div>
+                <h3>1000+</h3>
+                <p>Students Enrolled</p>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon"><i class="fa fa-book"></i></div>
+                <h3>50+</h3>
+                <p>Courses Available</p>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon"><i class="fa fa-smile-o"></i></div>
+                <h3>100%</h3>
+                <p>Satisfaction Rate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave: white → light blue -->
+    <div class="wave-divider wave-lightblue">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,40 C480,0 960,80 1440,40 L1440,80 L0,80 Z" fill="#f0f6ff"/>
+        </svg>
+    </div>
+
+    <!-- ── FEATURES / WHAT WE OFFER ── -->
+    <section id="course" class="features">
+        <div class="featured-content">
+            <h2>What We Offer</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fa fa-graduation-cap"></i></div>
+                    <h3>Quality Education</h3>
+                    <p>Receive top-notch education from industry experts.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fa fa-laptop"></i></div>
+                    <h3>Online Learning</h3>
+                    <p>Access courses anytime, anywhere with our online platform.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fa fa-user-plus"></i></div>
+                    <h3>Personalized Support</h3>
+                    <p>Get individualized attention and guidance throughout your learning journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 College Wallah. All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#course">Courses</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
