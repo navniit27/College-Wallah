@@ -3,7 +3,7 @@
 A modern, clean, and fully responsive landing page for an educational platform built using semantic HTML5 and custom CSS3 variables.
 
 ## 🚀 Live Demo
-[Insert your GitHub Pages or Vercel deployment link here]
+👉 [Click Here to View Live Website](https://navniit27.github.io/College-Wallah/)
 
 ## ✨ Features
 * **Fully Responsive Design:** Optimized for Mobile, Tablet, and Desktop screens.
